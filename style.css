@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #abaea8;
+  font-family: ;
+}
+/* preset that needs to be set before any css style to overwrite default behavior */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 33px 283px 66px 283px;
+}
+p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 1.5rem; /*32px*/
+
+  /* black */
+
+  color: #1f1d2a;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 3rem; /*(16*3)px*/
+  /* black */
+
+  color: #1f1d2a;
+}
+.card__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.card__container img {
+  width: 295px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  align-items: flex-start;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.subCard {
+  padding: 20px;
+}
+.card p {
+  color: #9b948e;
+}
+.card h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card__content {
+  padding: 20px;
+}
