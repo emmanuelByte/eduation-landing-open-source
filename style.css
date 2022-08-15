@@ -7,7 +7,7 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background: #abaea8;
+  background: linear-gradient(292.92deg, #e6e6e4 7.23%, #f0e8e2 97.74%);
   font-family: ;
 }
 /* preset that needs to be set before any css style to overwrite default behavior */
