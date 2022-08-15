@@ -54,9 +54,9 @@ border-radius: 10px;
     
 }
 .card p{ color: #9b948e;
-
+margin-left: 20px;
 }
-.card h4{
+.card h4{margin-left: 20px;
 margin-top: 20px;
 margin-bottom: 10px;
 }
