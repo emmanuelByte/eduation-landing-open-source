@@ -10,10 +10,39 @@
     max-width: 100%;
 } 
     body{background: linear-gradient(292.92deg,#e6e6e4 7.23%,#f0e8e2 97.74%);
+font-family: 'poppins'}
+nav{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+margin-bottom: 10px;
+}
+label.logo{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+     
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.nav ul li a{
+    color: #1F1D2A;
 
-    }
-.container{
-    width: 100%;
+
+}
+.container{width:100% ;
     margin: 0 auto;
     padding: 33px 283px 66px 283px;
 }
@@ -24,13 +53,13 @@ p{font-family: 'poppins';
     line-height: 27px;
     text-align: center;
 }
-h1{font-family:'poppins';
-    font-style: normal;
-    font-weight: 600;
-font-size: 32px;
-line-height: 48px;
-text-align: center;
-margin-bottom: 1.5rem;
+button{font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 250px;
+    
 color: #1f1d2a;
 }
 .card-container{ display: flex;
@@ -60,6 +89,75 @@ margin-left: 20px;
 margin-top: 20px;
 margin-bottom: 10px;
 }
+h1{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
 
+}
+.navbar-text{
+    color: #1F1d2a;
+}
+.woman{
+
+}
+.woman-banner{ 
+
+}
+.woman-banner img{float: right;
+    border-radius: 50%;
+}
+.woman-title{
+    font-family: Poppins;
+font-size: 55px;
+font-weight: 600;
+line-height: 83px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.section-text{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #98948e;    
+}
+.btn-primary{
+    height: 70px;
+width: 170px;
+left: 120px;
+top: 556px;
+border-radius: 6px;
+background: #96c67f;
+margin-left: 20px;
+}
+.company-img{
+    height: 29.999988555908203px;
+    width: 100.02436065673828px;
+    left: 0px;
+    top: 0.000030517578125px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+gap: 2rem;
+
+    
+}
+h5{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
 
 
